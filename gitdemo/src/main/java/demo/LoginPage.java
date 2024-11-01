@@ -17,7 +17,7 @@ public void logindetil() {
 	driver.manage().window().maximize();
 	driver.get("https://www.google.com/");
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-	
+	System.out.println("launch the browser");
 }
 
 @AfterTest
