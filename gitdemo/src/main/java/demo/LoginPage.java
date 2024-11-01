@@ -23,6 +23,7 @@ public void logindetil() {
 @AfterTest
 public void teardown() {
 	driver.quit();
+	System.out.println("quit the browser");
 }
 	
 }
